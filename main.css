@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+  outline: 1px none black;
+}
+div a {
+	text-decoration: none;
+	color:#666;
+	font-family: Arial;
+	padding: 5px;
+}
+a:hover {
+	text-decoration: underline;
+}
+#options {
+	height: 25px;
+	width: 25px;
+	margin-bottom: -5px;
+}
+#logo {
+	display:block;
+	height: 100px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 20px;
+}
+.menu {
+	display:block;
+	height:10%;
+	font-size: small;
+	float:right;
+	margin-right: 1%;
+}
+.mid {
+	position: relative;
+	vertical-align:middle; 
+	height:60%;
+	padding-top:15%;
+	padding-bottom: 27%;
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+	clear:both;
+}
+#mid2 {
+	text-align: center;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer {
+	background-color: #f2f2f2;
+	display:block;
+	background-color:lightgrey;
+	border-top: 1px solid darkgrey;
+	padding: 10px;
+	font-size: small;
+	height:20%;
+}
+#footer_right {
+	float:right;
+}
+img {
+	margin:2px;
+}
+#text_input {
+	height:25px;
+	width: 650px;
+	padding:1px;
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+}
+#text_input:hover {
+	border:1px solid lightblue;
+}
+#text_input:focus {
+	border:1px solid blue;
+}
+form {
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+}
+#soundicon {
+	position:absolute;
+	top:40%;
+	left:66.2%;
+	height:25px;
+	width:25px;
+}
+#button1 {
+	vertical-align: top;
+	display: inline-block;
+}
+#button2 {
+
+}
+#signin {
+	color: white;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	background: #4285f4;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+}
+.main {
+	min-height: 100%;
+	position: relative;
+	width: 100%;
+}
